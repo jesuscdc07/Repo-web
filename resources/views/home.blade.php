@@ -9,10 +9,10 @@
     <header>
 
     </header>
-    <h1>Rutas y controladores</h1>
+    <h1>Pagina de inicio</h1>
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
