@@ -9,7 +9,7 @@
     <header>
 
     </header>
-    <h1>Rutas y conntroladores</h1>
+    <h1>Rutas y controladores</h1>
 
     <footer>
 
