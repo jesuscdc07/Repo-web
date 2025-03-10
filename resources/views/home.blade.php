@@ -10,6 +10,9 @@
 
     </header>
     <h1>Rutas y conntroladores</h1>
+    
+    <footer>
 
+    </footer>
 </body>
 </html>
