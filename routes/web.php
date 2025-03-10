@@ -1,5 +1,6 @@
 <?php
-use App\Http\Controllers\controladordehomepage;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [controladordehomepage::class, 'home']);   //ruta y controlador inicial
+Route::get('/', [HomeController::class, 'home']);   //ruta y controlador inicial
+
