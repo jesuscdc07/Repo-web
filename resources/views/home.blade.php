@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--evita que la pagina se vea pequeña en disp mov-->
     <title>pagina principal</title>
-    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="{{ mix('css/Home.css') }}"> <!--vincular archivo vite a css-->
 </head>
 <body>
     <header class="header">
         <div class="logo-header">
-            <img src="{{ asset('imagenes/logo-web.jpg') }}" alt="Logo">
+            <img src="{{ asset('imagenes/logo-web (1).jpg') }}" alt="Logo">
         </div>
         <nav class="nav-menu">
             <ul>
