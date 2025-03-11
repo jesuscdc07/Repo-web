@@ -9,8 +9,16 @@
 <body>
     <header class="header">
         <div class="logo-header">
-             <img src="images/" alt="">
+            <img src="{{ asset('imagenes/logo-web.jpg') }}" alt="Logo">
         </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
     <h1>Pagina de inicio</h1>
 
