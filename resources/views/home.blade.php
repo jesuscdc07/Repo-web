@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--evita que la pagina se vea pequeña en disp mov-->
     <title>pagina principal</title>
-    @vite('resources/css/Home.css')  <!--vincular archivo vite a css-->
+    @vite(['resources/css/Home.css', 'resources/js/app.js'])    <!--vincular archivo vite a css-->
+ 
 </head>
 <body>
     <header class="header">
